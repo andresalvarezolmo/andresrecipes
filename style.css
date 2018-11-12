@@ -25,6 +25,64 @@ html, body {
 
 }
 
+.carousel-caption{
+  font-size: 20px;
+  position: absolute;
+  top: 20%;
+  transform: translateY(20%);
+}
+
+.btn-primary {
+  background-color: #6648b1;
+  border: 1px solid #6648b1;
+}
+
+.btn-primary:hover {
+  background-color: #563d7c;
+  border: 1px solid #563d7c;
+}
+
+.padding{
+  padding-bottom: 2rem;
+}
+
+.welcome{
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.welcome hr{
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.fa-clock{
+  color: #E53D00;
+}
+.fa-redo-alt{
+  color: #21A0A0;
+}
+.fa-lemon{
+  color: #FFE900;
+}
+
+.fa-clock, .fa-redo-alt, .fa-lemon{
+  font-size: 4em;
+  margin: 1rem;
+}
+
+.fun{
+  width: 100%
+  margin-bottom:2rem;
+}
+
+.gif{
+  max-width: 100%;
+}
+
 /*---Media Queries --*/
 @media (max-width: 992px) {
 
