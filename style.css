@@ -21,6 +21,10 @@
 
 }
 
+.wrapper {
+  max-width:200px;
+  width:100%;
+}
 
 /*---Firefox Bug Fix --*/
 .carousel-item {
